@@ -1,0 +1,1005 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Typinground: Typing Test on Any Webpage (Free Browser Extension)</title>
+<meta name="description" content="Typinground is a free browser extension that turns any webpage into a typing test. Press Alt+Shift+T on an article, type over the page, and get your WPM and accuracy.">
+<link rel="canonical" href="https://typinground.pages.dev/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#004296">
+<meta name="application-name" content="Typinground">
+<meta name="color-scheme" content="light">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="text/markdown" href="/llms.txt" title="Typinground summary for AI assistants">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Typinground">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://typinground.pages.dev/">
+<meta property="og:title" content="Typinground: every page is a typing test">
+<meta property="og:description" content="Typinground is a free browser extension that turns any webpage into a typing test. Press Alt+Shift+T on an article, type over the page, and get your WPM and accuracy.">
+<meta property="og:image" content="https://typinground.pages.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Typinground logo with the headline: Every page is a typing test.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Typinground: every page is a typing test">
+<meta name="twitter:description" content="Typinground is a free browser extension that turns any webpage into a typing test. Press Alt+Shift+T on an article, type over the page, and get your WPM and accuracy.">
+<meta name="twitter:image" content="https://typinground.pages.dev/og-image.png">
+<meta name="twitter:image:alt" content="Typinground logo with the headline: Every page is a typing test.">
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://typinground.pages.dev/#org",
+   "name": "Typinground",
+   "url": "https://typinground.pages.dev/",
+   "logo": "https://typinground.pages.dev/icon-512.png"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://typinground.pages.dev/#website",
+   "name": "Typinground",
+   "url": "https://typinground.pages.dev/",
+   "publisher": {
+    "@id": "https://typinground.pages.dev/#org"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://typinground.pages.dev/#webpage",
+   "url": "https://typinground.pages.dev/",
+   "name": "Typinground: typing test on any webpage",
+   "isPartOf": {
+    "@id": "https://typinground.pages.dev/#website"
+   },
+   "about": {
+    "@id": "https://typinground.pages.dev/#app"
+   },
+   "primaryImageOfPage": "https://typinground.pages.dev/og-image.png",
+   "inLanguage": "en"
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://typinground.pages.dev/#app",
+   "name": "Typinground",
+   "description": "Typinground is a free browser extension that turns any webpage into a typing test. Press Alt+Shift+T on an article, type over the page, and get your WPM and accuracy.",
+   "url": "https://typinground.pages.dev/",
+   "image": "https://typinground.pages.dev/og-image.png",
+   "applicationCategory": "BrowserApplication",
+   "applicationSubCategory": "Typing practice",
+   "operatingSystem": "Chrome, Firefox, Edge, Brave",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@id": "https://typinground.pages.dev/#org"
+   },
+   "featureList": [
+    "Typing test on any webpage, typed directly over the page",
+    "Time mode (15, 30, 60, 120 seconds) and word mode (10, 25, 50, 100 words)",
+    "WPM, accuracy, raw speed and a per-second speed chart",
+    "Automatic detection of the main article text",
+    "Section picker remembered per site",
+    "Simple mode: lowercase, no punctuation",
+    "Personal bests and test history stored locally"
+   ]
+  },
+  {
+   "@type": "HowTo",
+   "@id": "https://typinground.pages.dev/#howto",
+   "name": "How to take a typing test on any webpage",
+   "totalTime": "PT1M",
+   "step": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "name": "Install Typinground",
+     "text": "Add the Typinground extension to Chrome or Firefox."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "name": "Open an article",
+     "text": "Open any webpage with text, such as a Wikipedia article or blog post."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "name": "Press the shortcut",
+     "text": "Press Alt+Shift+T. The page dims and a caret appears at the first paragraph on screen."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "name": "Type and see your score",
+     "text": "Type the text. When the test ends you get your WPM, accuracy and a speed chart."
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://typinground.pages.dev/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is Typinground?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Typinground is a free browser extension for Chrome and Firefox that turns any webpage into a typing test. Press Alt+Shift+T on an article and its text becomes the test: you type over the page itself and get your words per minute (WPM), accuracy and a speed chart when you finish."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I take a typing test on any webpage?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Install Typinground, open any article, and press Alt+Shift+T. The rest of the page dims and a caret appears at the first paragraph on your screen. Type the text, then read your WPM and accuracy on the results card. Press Tab for a new test or Esc to exit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Typinground free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Typinground is free, with no account, no subscription and no ads."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which browsers does Typinground support?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Chrome and other Chromium browsers such as Edge and Brave, plus Firefox."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does it work on every website?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On almost any page with readable text. Browsers don't allow extensions on internal pages like chrome:// or the extension store, or inside the built-in PDF viewer. On a page without much text, you get a common-words test instead."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why are my scores lower than on typing sites?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Real writing is harder: capitals, punctuation, numbers and longer words. Turn on simple mode (lowercase, no punctuation) when you want numbers you can compare."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will it break the page I'm on?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Colors are drawn with the CSS Highlight API and the controls live in their own shadow root, so the page's code and styles are never changed. Press Esc and everything is gone."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "It picked the wrong part of the page. What now?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Press Alt+Shift+P, hover over the part you want, press ↑ to widen the selection, and click. Typinground remembers it for that site, and you can clear saved sections from the popup."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is any of my data sent anywhere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. There's no account and no server. Results, settings and saved sections are stored locally by your browser."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "The shortcut doesn't do anything.",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your browser skips a default shortcut when another extension already uses it. Open the Typinground popup and click \"change shortcuts\", or go to chrome://extensions/shortcuts. Tabs that were open before you installed need a refresh."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<script>
+  // Analytics: Umami Cloud (cookie-free, no banner needed). Paste your website ID from
+  // cloud.umami.is below. Nothing loads until it's set, or when opened locally.
+  window.UMAMI_WEBSITE_ID = '';
+  (() => {
+    const id = window.UMAMI_WEBSITE_ID;
+    const local = location.protocol === 'file:' || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+    if (!id || local) return;
+    const s = document.createElement('script');
+    s.defer = true;
+    s.src = 'https://cloud.umami.is/script.js';
+    s.dataset.websiteId = id;
+    document.head.append(s);
+  })();
+  window.track = (name, data) => window.umami?.track(name, data);
+</script>
+<link rel="preload" href="fonts/iosevka-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/iosevka-800.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  @font-face { font-family: Iosevka; font-weight: 400; font-style: normal; font-display: swap; src: url('fonts/iosevka-400.woff2') format('woff2'); }
+  @font-face { font-family: Iosevka; font-weight: 500; font-style: normal; font-display: swap; src: url('fonts/iosevka-500.woff2') format('woff2'); }
+  @font-face { font-family: Iosevka; font-weight: 700; font-style: normal; font-display: swap; src: url('fonts/iosevka-700.woff2') format('woff2'); }
+  @font-face { font-family: Iosevka; font-weight: 800; font-style: normal; font-display: swap; src: url('fonts/iosevka-800.woff2') format('woff2'); }
+
+  :root {
+    --bg: #ffffff;
+    --panel: #f7f9fc;
+    --panel-2: #f1f4f8;
+    --line: #e6eaf0;
+    --line-2: #d5dbe4;
+    --ink: #060a12;
+    --text: #1b2230;
+    --muted: #6b7486;
+    --faint: #9aa3b2;
+    --blue: #004296;
+    --blue-2: #3b78d8;
+    --blue-soft: #e3ecf8;
+    --green: #08794f;
+    --red: #d2123c;
+    --red-soft: #f8dfe5;
+    --display: Iosevka, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: Iosevka, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --mono: Iosevka, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --max: 1120px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+  .mono { font-family: var(--mono); }
+
+  /* Nav */
+  nav { position: sticky; top: 0; z-index: 30; background: rgba(255,255,255,.88); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+  nav .wrap { height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .brand { display: inline-flex; align-items: center; gap: 9px; text-decoration: none; font: 800 19px var(--display); letter-spacing: -.02em; color: var(--ink); }
+  .logo { width: 30px; height: 30px; flex-shrink: 0; }
+  .links { display: flex; align-items: center; gap: 26px; font-size: 16px; color: var(--muted); }
+  .links a { text-decoration: none; }
+  .links a:not(.btn):hover { color: var(--ink); }
+
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 10px; font: 700 16px var(--sans); text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: background .15s, border-color .15s; }
+  .btn-dark { background: var(--ink); color: #fff; }
+  .btn-dark:hover { background: #1b2230; }
+  .btn-line { background: #fff; color: var(--ink); border-color: var(--line-2); }
+  .btn-line:hover { border-color: var(--ink); }
+  .btn-sm { height: 36px; padding: 0 14px; font-size: 14px; border-radius: 9px; }
+
+  kbd { display: inline-grid; place-items: center; min-width: 24px; height: 24px; padding: 0 6px; border-radius: 6px; border: 1px solid var(--line-2); border-bottom-width: 2px; background: #fff; color: var(--text); font: 400 12px var(--mono); }
+
+  /* Hero */
+  .hero { padding: 76px 0 0; text-align: center; }
+  .announce { display: inline-flex; align-items: center; gap: 10px; padding: 5px 14px 5px 5px; border-radius: 999px; background: var(--blue-soft); border: 1px solid #c9d8ef; font-size: 14px; color: var(--text); text-decoration: none; }
+  .announce b { padding: 2px 9px; border-radius: 999px; background: var(--blue); color: #fff; font: 700 11px var(--sans); letter-spacing: .04em; text-transform: uppercase; }
+  .announce:hover { border-color: var(--blue-2); }
+  h1 { margin: 26px auto 0; max-width: 860px; font: 800 clamp(42px, 7.6vw, 80px)/1.02 var(--display); letter-spacing: -.035em; color: var(--ink); }
+  h1 .accent { color: var(--blue); position: relative; white-space: nowrap; }
+  h1 .accent svg { position: absolute; left: 0; right: 0; bottom: -.14em; width: 100%; height: .28em; overflow: visible; }
+  .lede { margin: 24px auto 0; max-width: 620px; font-size: clamp(17px, 2vw, 19px); line-height: 1.6; color: var(--muted); }
+  .cta { margin-top: 32px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .fine { margin-top: 14px; font-size: 13px; color: var(--faint); }
+  .fine a { color: var(--muted); }
+
+  /* Demo */
+  .demo { margin: 64px auto 0; max-width: 1000px; text-align: left; }
+  .window { border: 1px solid var(--line-2); border-radius: 14px; overflow: hidden; background: #fff; box-shadow: 0 1px 2px rgba(6,10,18,.04), 0 24px 60px -24px rgba(6,10,18,.22); transition: box-shadow .2s, border-color .2s; }
+  .window.live { border-color: var(--blue-2); box-shadow: 0 0 0 4px rgba(59,120,216,.14), 0 24px 60px -24px rgba(6,10,18,.22); }
+  .bar { height: 42px; display: flex; align-items: center; gap: 12px; padding: 0 14px; background: var(--panel); border-bottom: 1px solid var(--line); }
+  .dots { display: flex; gap: 6px; }
+  .dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--line-2); }
+  .url { flex: 1; max-width: 420px; margin: 0 auto; height: 26px; border-radius: 7px; background: #fff; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font: 12px var(--mono); color: var(--muted); }
+  .bar-spacer { width: 48px; }
+
+  .page { position: relative; height: 470px; overflow: hidden; cursor: text; }
+  .page-inner { display: grid; grid-template-columns: 1fr 210px; gap: 32px; padding: 72px 44px 40px; font-family: Georgia, 'Times New Roman', serif; color: #202122; }
+  .page h3 { margin: 0; font-size: 30px; font-weight: 400; }
+  .page .from { margin: 4px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #c8ccd1; font: 13px var(--sans); color: #54595d; }
+  .article { position: relative; font-size: 17px; line-height: 1.8; }
+  .article p { margin: 0 0 14px; }
+  .w { white-space: nowrap; }
+  .c { color: #a3a8ae; }
+  .c.ok { color: #0d1117; }
+  .c.bad { color: var(--red); background: var(--red-soft); border-radius: 2px; }
+  .c.miss { color: #a3a8ae; text-decoration: underline wavy var(--red); text-underline-offset: 3px; }
+  .c.extra { color: var(--red); opacity: .75; }
+  .side { border: 1px solid #c8ccd1; background: #f8f9fa; padding: 12px; font: 12px/1.5 var(--sans); color: #54595d; align-self: start; }
+  .side b { display: block; text-align: center; color: #202122; font-size: 14px; }
+  .side .ph { height: 116px; margin: 8px 0; border-radius: 3px; background: repeating-linear-gradient(135deg, #e9ebef 0 8px, #f1f2f5 8px 16px); }
+  .spot { position: absolute; border-radius: 10px; pointer-events: none; box-shadow: 0 0 0 3000px rgba(6,10,18,.22); }
+  .caret { position: absolute; width: 2px; border-radius: 1px; background: var(--blue); transition: left .07s ease-out, top .07s ease-out; z-index: 2; animation: blink 1s step-end infinite; }
+  .caret.typing { animation: none; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .hud { position: absolute; top: 14px; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; align-items: center; gap: 2px; padding: 5px 8px; border-radius: 10px; background: #fff; border: 1px solid var(--line-2); box-shadow: 0 8px 24px -10px rgba(6,10,18,.3); font: 13px var(--sans); color: var(--muted); white-space: nowrap; }
+  .hud .clock { min-width: 46px; padding: 0 8px 0 4px; text-align: right; font: 700 16px var(--sans); font-variant-numeric: tabular-nums; color: var(--blue); }
+  .hud button { all: unset; cursor: pointer; padding: 3px 8px; border-radius: 6px; }
+  .hud button:hover { color: var(--ink); }
+  .hud button.on { color: var(--blue); background: var(--blue-soft); font-weight: 600; }
+  .hud .sep { width: 1px; height: 14px; margin: 0 5px; background: var(--line); }
+
+  .start { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 3; display: flex; align-items: center; gap: 10px; padding: 9px 16px; border-radius: 999px; background: var(--ink); color: #fff; font: 400 14px var(--sans); white-space: nowrap; box-shadow: 0 10px 30px -10px rgba(6,10,18,.5); transition: opacity .2s, transform .2s; }
+  .start .pulse { width: 8px; height: 8px; border-radius: 50%; background: #7cb0f5; box-shadow: 0 0 0 0 rgba(124,176,245,.7); animation: pulse 1.6s infinite; }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(124,176,245,0); } 100% { box-shadow: 0 0 0 0 rgba(124,176,245,0); } }
+  .start.hide { opacity: 0; transform: translate(-50%, 8px); pointer-events: none; }
+
+  .result { position: absolute; inset: 0; z-index: 4; display: grid; place-items: center; background: rgba(6,10,18,.28); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  .result.show { opacity: 1; pointer-events: auto; }
+  .rcard { width: min(440px, calc(100% - 32px)); padding: 24px 26px; border-radius: 14px; background: #fff; border: 1px solid var(--line-2); box-shadow: 0 24px 60px -20px rgba(6,10,18,.4); font-family: var(--sans); }
+  .rstats { display: flex; align-items: flex-end; gap: 28px; }
+  .rstat small { display: block; font-size: 12px; color: var(--muted); }
+  .rstat strong { font: 700 28px/1.1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .rstat.big strong { font-size: 58px; line-height: 1; color: var(--blue); letter-spacing: -.03em; }
+  .rcard svg { display: block; width: 100%; height: 54px; margin-top: 16px; }
+  .rmeta { margin-top: 12px; font: 12px var(--mono); color: var(--muted); }
+  .rmeta b { color: var(--text); font-weight: 500; }
+  .ractions { margin-top: 18px; display: flex; gap: 8px; }
+  .ractions button { all: unset; cursor: pointer; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line-2); font: 400 13px var(--sans); color: var(--ink); }
+  .ractions button:hover { border-color: var(--ink); }
+  .ractions kbd { margin-left: 6px; height: 20px; min-width: 20px; font-size: 11px; }
+
+  .fig { display: flex; gap: 14px; margin: 14px 4px 0; font-size: 14px; color: var(--muted); }
+  .fig .mono { color: var(--faint); font-size: 12px; padding-top: 2px; white-space: nowrap; }
+  .fig b { color: var(--text); font-weight: 600; }
+
+  .trust { margin: 44px auto 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 28px; font-size: 14px; color: var(--muted); }
+  .trust span { display: inline-flex; align-items: center; gap: 7px; }
+  .trust svg { width: 15px; height: 15px; color: var(--faint); }
+
+  /* Sections */
+  section { padding: 120px 0 0; }
+  .label { font: 400 13px var(--mono); color: var(--blue); }
+  .label .n { color: var(--faint); margin-right: 8px; }
+  h2 { margin: 12px 0 0; max-width: 720px; font: 800 clamp(32px, 4.8vw, 48px)/1.08 var(--display); letter-spacing: -.03em; color: var(--ink); }
+  .sub { margin: 14px 0 0; max-width: 600px; font-size: 18px; color: var(--muted); }
+  .sub b { color: var(--ink); font-weight: 600; }
+  .center { text-align: center; }
+  .center h2, .center .sub { margin-left: auto; margin-right: auto; }
+
+  /* Compare */
+  .compare { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .panel { padding: 24px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); }
+  .panel h3 { margin: 0; font: 700 19px var(--display); letter-spacing: -.01em; color: var(--ink); }
+  .panel > p { margin: 6px 0 0; font-size: 16px; color: var(--muted); }
+  .panel.us { background: #fff; border-color: var(--line-2); }
+  .mini { margin-top: 20px; padding: 18px; border-radius: 10px; background: #fff; border: 1px solid var(--line); min-height: 132px; }
+  .panel.us .mini { background: var(--panel); }
+  .wordlist { font: 15px/1.9 var(--mono); color: var(--faint); }
+  .wordlist .ok { color: var(--text); }
+  .real { font: 15px/1.8 Georgia, serif; color: #a3a8ae; }
+  .real .ok { color: #0d1117; }
+  .real .bad { color: var(--red); background: var(--red-soft); border-radius: 2px; }
+  .real .cur, .wordlist .cur { display: inline-block; width: 2px; height: 1.1em; vertical-align: -3px; background: var(--blue); animation: blink 1s step-end infinite; }
+
+  /* Steps */
+  .steps { margin-top: 44px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .step { padding: 26px; border-left: 1px solid var(--line); }
+  .step:first-child { border-left: 0; }
+  .step .mono { font-size: 12px; color: var(--faint); }
+  .step h3 { margin: 18px 0 0; font: 700 19px var(--display); letter-spacing: -.01em; color: var(--ink); }
+  .step p { margin: 6px 0 0; font-size: 16px; color: var(--muted); }
+  .step .keys { margin-top: 16px; display: flex; align-items: center; gap: 5px; color: var(--faint); font-size: 13px; }
+
+  /* Features */
+  .features { margin-top: 44px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .feature { padding: 24px; border-radius: 16px; border: 1px solid var(--line); background: #fff; display: flex; flex-direction: column; }
+  .feature.wide { grid-column: span 2; }
+  .feature .mono { font-size: 12px; color: var(--faint); }
+  .feature h3 { margin: 10px 0 0; font: 700 19px var(--display); letter-spacing: -.01em; color: var(--ink); }
+  .feature p { margin: 6px 0 0; font-size: 16px; color: var(--muted); }
+  .viz { margin-top: 20px; padding: 16px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); flex: 1; }
+  .layout { display: grid; grid-template-columns: 44px 1fr 60px; gap: 8px; height: 112px; }
+  .layout div { border-radius: 6px; background: var(--panel-2); border: 1px dashed var(--line-2); position: relative; }
+  .layout div.x::after { content: 'skip'; position: absolute; inset: 0; display: grid; place-items: center; font: 10px var(--mono); color: var(--faint); writing-mode: vertical-rl; }
+  .layout .main { background: var(--blue-soft); border: 1.5px solid var(--blue-2); padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .layout .main i { height: 6px; border-radius: 3px; background: var(--blue-2); opacity: .5; }
+  .layout .main i:nth-child(2) { width: 82%; } .layout .main i:nth-child(4) { width: 58%; }
+  .picker { position: relative; height: 112px; }
+  .picker i { display: block; height: 6px; border-radius: 3px; background: var(--line-2); margin: 10px 0; }
+  .picker .box { position: absolute; left: -6px; right: -6px; top: 26px; height: 42px; border: 2px solid var(--blue); border-radius: 5px; background: rgba(0,66,150,.06); }
+  .picker .box span { position: absolute; left: -2px; top: -22px; padding: 1px 7px; border-radius: 4px; background: var(--blue); color: #fff; font: 11px var(--mono); white-space: nowrap; }
+  .modes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .modes span { display: grid; place-items: center; height: 34px; border-radius: 8px; border: 1px solid var(--line-2); background: #fff; font: 400 13px var(--mono); color: var(--muted); }
+  .modes span.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .stats div { padding: 10px 12px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
+  .stats small { display: block; font-size: 12px; color: var(--muted); }
+  .stats strong { font: 700 24px/1.2 var(--display); color: var(--ink); }
+  .stats .up { color: var(--green); font: 12px var(--mono); }
+  .history { margin-top: 10px; display: grid; gap: 6px; font: 13px var(--mono); }
+  .history div { display: grid; grid-template-columns: 40px 50px 1fr auto; gap: 8px; color: var(--muted); }
+  .history b { color: var(--ink); font-weight: 500; }
+  .simple { font: 15px/1.7 var(--mono); }
+  .simple .from { color: var(--faint); text-decoration: line-through; text-decoration-color: var(--red); }
+  .simple .to { color: var(--text); }
+
+  /* Shortcuts */
+  .keys-grid { margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .key { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 12px; border: 1px solid var(--line); background: #fff; }
+  .key .combo { display: flex; align-items: center; gap: 4px; flex-shrink: 0; color: var(--faint); font-size: 12px; }
+  .key b { display: block; font-weight: 600; font-size: 15px; color: var(--ink); }
+  .key small { display: block; font-size: 13px; color: var(--muted); line-height: 1.4; }
+  .key.primary { border-color: var(--line-2); background: var(--panel); }
+  .note { margin-top: 16px; font-size: 14px; color: var(--muted); }
+  .note code { font: 13px var(--mono); padding: 2px 6px; border-radius: 5px; background: var(--panel-2); color: var(--text); }
+
+  /* Install */
+  .install { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .install ol { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+  .install li { position: relative; padding: 0 0 22px 44px; font-size: 16px; color: var(--muted); }
+  .install li:last-child { padding-bottom: 0; }
+  .install li::before { counter-increment: s; content: counter(s); position: absolute; left: 0; top: -1px; width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; background: var(--ink); color: #fff; font: 700 13px var(--sans); }
+  .install li b { color: var(--ink); font-weight: 600; }
+  .stores { display: grid; gap: 12px; align-content: start; }
+  .store { display: flex; align-items: center; gap: 16px; padding: 16px 20px; border-radius: 16px; background: #fff; border: 1px solid var(--line-2); color: var(--ink); text-decoration: none; box-shadow: 0 1px 2px rgba(6,10,18,.04); transition: border-color .15s, box-shadow .15s, transform .15s; }
+  .store:hover { border-color: var(--ink); box-shadow: 0 10px 24px -14px rgba(6,10,18,.35); transform: translateY(-1px); }
+  .store img { width: 40px; height: 40px; flex-shrink: 0; }
+  .store span { flex: 1; }
+  .store small { display: block; font-size: 13px; color: var(--muted); }
+  .store b { display: block; font: 700 21px/1.25 var(--display); letter-spacing: -.01em; }
+  .store em { font-style: normal; padding: 3px 9px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font: 700 12px var(--sans); letter-spacing: .02em; }
+  .store-note { margin: 2px 4px 0; font-size: 14px; color: var(--muted); }
+
+  /* FAQ */
+  .faq { margin-top: 36px; border-top: 1px solid var(--line); max-width: 820px; }
+  details { border-bottom: 1px solid var(--line); }
+  summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 20px; padding: 20px 0; font: 700 19px var(--display); letter-spacing: -.01em; color: var(--ink); }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; font: 400 22px/1 var(--sans); color: var(--muted); transition: transform .2s; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { margin: -6px 0 20px; max-width: 680px; color: var(--muted); }
+
+  /* Closing */
+  .closing { margin-top: 120px; padding: 64px 24px; border-radius: 20px; background: var(--panel); border: 1px solid var(--line); text-align: center; }
+  .closing h2 { margin: 0 auto; }
+  .closing p { margin: 14px auto 28px; max-width: 520px; color: var(--muted); font-size: 18px; }
+
+  footer { margin-top: 80px; padding: 28px 0 44px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  footer .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+  footer .brand { font-size: 16px; }
+
+  @media (max-width: 900px) {
+    .links a:not(.btn) { display: none; }
+    .features { grid-template-columns: 1fr 1fr; }
+    .feature.wide { grid-column: span 2; }
+    .keys-grid { grid-template-columns: 1fr 1fr; }
+    .page-inner { grid-template-columns: 1fr; padding: 70px 22px 24px; }
+    .side { display: none; }
+  }
+  @media (max-width: 680px) {
+    .hero { padding-top: 52px; }
+    .compare, .install, .features, .keys-grid { grid-template-columns: 1fr; }
+    .feature.wide { grid-column: span 1; }
+    .steps { grid-template-columns: 1fr; }
+    .step { border-left: 0; border-top: 1px solid var(--line); }
+    .step:first-child { border-top: 0; }
+    .hud .opt { display: none; }
+    .page { height: 430px; }
+    .article { font-size: 15px; }
+    .bar-spacer { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .caret, .start .pulse, .real .cur, .wordlist .cur { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Typinground home"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect x="4" y="9" width="56" height="51" rx="14" fill="#00255a"/><rect x="4" y="4" width="56" height="49" rx="14" fill="#004296"/><g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 15c5.5 0 9 1.6 9 5.5 0-3.9 3.5-5.5 9-5.5"/><path d="M32 20.5v20"/><path d="M23 46c5.5 0 9-1.6 9-5.5 0 3.9 3.5 5.5 9 5.5"/></g></svg>Typinground</a>
+    <div class="links">
+      <a href="#demo">Demo</a>
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#shortcuts">Shortcuts</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-dark btn-sm" href="#install" data-umami-event="get-extension" data-umami-event-location="nav">Get Typinground</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <a class="announce" href="#features" data-umami-event="announcement-click"><b>New</b> Pick any section of a page with <span class="mono">Alt+Shift+P</span> &rarr;</a>
+    <h1>Every page is a <span class="accent">typing test.<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 13 C 60 4, 120 4, 170 10 S 260 17, 297 6" fill="none" stroke="#d2123c" stroke-width="3.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <p class="lede">A browser extension that turns the article you're already reading into typing practice. Press one shortcut, type right over the page, and get your WPM. No new tab, no waiting for a site to load.</p>
+    <div class="cta">
+      <a class="btn btn-dark" href="#install" data-umami-event="get-extension" data-umami-event-location="hero">Get Typinground · free</a>
+      <a class="btn btn-line" href="#demo" id="try" data-umami-event="try-demo" data-umami-event-location="hero">Try it on this page &darr;</a>
+    </div>
+    <p class="fine">Chrome and Firefox · No account · Your stats never leave your browser</p>
+
+    <div class="demo" id="demo">
+      <div class="window" id="window">
+        <div class="bar">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <div class="url">en.wikipedia.org/wiki/Alan_Turing</div>
+          <div class="bar-spacer"></div>
+        </div>
+        <div class="page" id="page" tabindex="0" aria-label="Interactive typing demo. Click, then start typing.">
+          <div class="hud" id="hud">
+            <span class="clock" id="clock">15</span>
+            <span class="sep"></span>
+            <button data-mode="time" class="on">time</button><button data-mode="words">words</button>
+            <span class="sep"></span>
+            <span id="lengths"></span>
+            <span class="sep opt"></span>
+            <button class="opt" tabindex="-1">simple</button><button class="opt" tabindex="-1">pick section</button>
+          </div>
+          <div class="page-inner">
+            <div>
+              <h3>Alan Turing</h3>
+              <div class="from">From Wikipedia, the free encyclopedia</div>
+              <div class="article" id="article"></div>
+            </div>
+            <aside class="side"><b>Alan Turing</b><div class="ph"></div>Born 23 June 1912<br>Maida Vale, London<br>Fields: logic, mathematics, computer science</aside>
+          </div>
+          <div class="spot" id="spot"></div>
+          <div class="caret" id="caret"></div>
+          <div class="start" id="start"><span class="pulse"></span><span id="start-text">Click here, then start typing</span></div>
+          <div class="result" id="result">
+            <div class="rcard">
+              <div class="rstats">
+                <div class="rstat big"><small>wpm</small><strong id="r-wpm">0</strong></div>
+                <div class="rstat"><small>accuracy</small><strong id="r-acc">0%</strong></div>
+                <div class="rstat"><small>raw</small><strong id="r-raw">0</strong></div>
+              </div>
+              <svg viewBox="0 0 400 54" preserveAspectRatio="none" aria-hidden="true"><polyline id="r-line" fill="none" stroke="#004296" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+              <div class="rmeta" id="r-meta"></div>
+              <div class="ractions">
+                <button id="again">Next test<kbd>tab</kbd></button>
+                <button id="install-link" data-umami-event="get-extension" data-umami-event-location="demo-results">Get the extension</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fig"><span class="mono">Fig. 1</span><span><b>This is the real thing, not a video.</b> Click the article and type. Space skips to the next word, Backspace fixes mistakes, Tab starts over. In the extension, this works on any page you open.</span></div>
+    </div>
+
+    <div class="trust">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/><path d="M3 3l18 18"/></svg>No account</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Stats stay on your device</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="m9 12 2 2 4-4"/></svg>Never changes the page</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Idle until you press the shortcut</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="why">
+    <div class="wrap">
+      <div class="label"><span class="n">01</span>Why</div>
+      <h2>Word lists are practice. Real pages are the test.</h2>
+      <p class="sub">Typing sites give you lowercase words with no punctuation. What you actually type every day has <b>capitals, commas, quotes and numbers</b>. Typinground lets you practice on that.</p>
+      <div class="compare">
+        <div class="panel">
+          <h3>Typing sites</h3>
+          <p>Open a new tab, wait for it to load, type random common words.</p>
+          <div class="mini wordlist"><span class="ok">the of world school might </span><span class="cur"></span>still head problem system long same feel number since late great house real</div>
+        </div>
+        <div class="panel us">
+          <h3>Typinground</h3>
+          <p>Stay on the page you're reading. Press a shortcut, type what's in front of you.</p>
+          <div class="mini real"><span class="ok">During World War II, Turing worked at Bletchley Park, where he </span><span class="ok">hel</span><span class="bad">o</span><span class="cur"></span>ed break German naval codes, including the "Enigma" ciphers.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="label"><span class="n">02</span>How it works</div>
+      <h2>Three seconds from reading to typing.</h2>
+      <div class="steps">
+        <div class="step"><span class="mono">STEP 1</span><h3>Open anything worth reading</h3><p>A Wikipedia article, a blog post, a newsletter, the docs you already have open.</p></div>
+        <div class="step"><span class="mono">STEP 2</span><h3>Press the shortcut</h3><p>The rest of the page dims and a caret appears at the first paragraph on your screen.</p><div class="keys"><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd></div></div>
+        <div class="step"><span class="mono">STEP 3</span><h3>Type, then check your score</h3><p>The page scrolls with you. When time's up you get WPM, accuracy and a speed chart.</p><div class="keys"><kbd>Tab</kbd> next test · <kbd>Esc</kbd> exit</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="label"><span class="n">03</span>Features</div>
+      <h2>Small extension, every detail handled.</h2>
+      <div class="features">
+        <div class="feature wide">
+          <span class="mono">Rendering</span>
+          <h3>Types right on the page</h3>
+          <p>Letters change color in place as you type, using the browser's highlight API. The page's own code is never rewritten, so nothing breaks, and pressing Esc leaves it exactly as it was.</p>
+          <div class="viz real"><span class="ok">Turing was born in Maida Vale, London, while his </span><span class="ok">fa</span><span class="bad">ht</span><span class="ok">er</span><span class="cur"></span> was on leave from the Indian Civil Service.</div>
+        </div>
+        <div class="feature">
+          <span class="mono">Modes</span>
+          <h3>Time or words</h3>
+          <p>Race the clock or finish a fixed number of words.</p>
+          <div class="viz"><div class="modes"><span>15s</span><span class="on">30s</span><span>60s</span><span>120s</span><span>10w</span><span>25w</span><span>50w</span><span>100w</span></div></div>
+        </div>
+        <div class="feature">
+          <span class="mono">Extraction</span>
+          <h3>Finds the real content</h3>
+          <p>Skips menus, sidebars, footnotes and link lists, and starts at the first paragraph you can see.</p>
+          <div class="viz"><div class="layout"><div class="x"></div><div class="main"><i></i><i></i><i></i><i></i></div><div class="x"></div></div></div>
+        </div>
+        <div class="feature">
+          <span class="mono">Picker</span>
+          <h3>Pick any section</h3>
+          <p>Wrong part of the page? Hover, press ↑ to widen, click. Remembered for that site.</p>
+          <div class="viz"><div class="picker"><i></i><i></i><i style="width:84%"></i><i></i><i style="width:62%"></i><i></i><div class="box"><span>article · 412 words</span></div></div></div>
+        </div>
+        <div class="feature">
+          <span class="mono">Results</span>
+          <h3>Results and history</h3>
+          <p>WPM, accuracy, raw speed, a per-second chart, and personal bests.</p>
+          <div class="viz">
+            <div class="stats"><div><small>best</small><strong>82</strong></div><div><small>avg</small><strong>71</strong></div><div><small>tests</small><strong>48</strong></div></div>
+            <div class="history"><div><b>74</b><span>96%</span><span>wikipedia.org</span><span>2m</span></div><div><b>68</b><span>93%</span><span>paulgraham.com</span><span>1h</span></div></div>
+          </div>
+        </div>
+        <div class="feature wide">
+          <span class="mono">Text</span>
+          <h3>Only keys you actually have</h3>
+          <p>Curly quotes, long dashes and accented letters become plain keys. Words you can't type, like pronunciation guides, are skipped. Turn on simple mode for lowercase with no punctuation, so scores compare with typing sites.</p>
+          <div class="viz simple"><span class="from">“Gödel’s theorem—1931…”</span> &rarr; <span class="to">"Godel's theorem-1931..."</span><br><span class="from">/ˈtjʊərɪŋ/</span> &rarr; <span class="to">skipped</span> &nbsp; <span class="from">[12]</span> &rarr; <span class="to">skipped</span></div>
+        </div>
+        <div class="feature">
+          <span class="mono">Fallback</span>
+          <h3>Works without text, too</h3>
+          <p>On a page with nothing to read, you get a quick common-words test instead, so the shortcut always does something.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shortcuts">
+    <div class="wrap">
+      <div class="label"><span class="n">04</span>Shortcuts</div>
+      <h2>Keyboard first, of course.</h2>
+      <div class="keys-grid">
+        <div class="key primary"><span class="combo"><kbd>Alt</kbd><kbd>Shift</kbd><kbd>T</kbd></span><span><b>Typing mode</b><small>Toggle on the current page</small></span></div>
+        <div class="key primary"><span class="combo"><kbd>Alt</kbd><kbd>Shift</kbd><kbd>P</kbd></span><span><b>Pick a section</b><small>Choose what to type</small></span></div>
+        <div class="key"><span class="combo"><kbd>↑</kbd><kbd>↓</kbd></span><span><b>Widen / narrow</b><small>While picking a section</small></span></div>
+        <div class="key"><span class="combo"><kbd>Tab</kbd></span><span><b>Next test</b><small>From the first paragraph on screen</small></span></div>
+        <div class="key"><span class="combo"><kbd>Enter</kbd></span><span><b>Repeat</b><small>Same text, from the results card</small></span></div>
+        <div class="key"><span class="combo"><kbd>Ctrl</kbd><kbd>⌫</kbd></span><span><b>Delete word</b><small>Clear the word you're on</small></span></div>
+        <div class="key"><span class="combo"><kbd>Space</kbd></span><span><b>Next word</b><small>Skips the rest of a word</small></span></div>
+        <div class="key"><span class="combo"><kbd>Click</kbd></span><span><b>Start here</b><small>Click a paragraph to restart there</small></span></div>
+        <div class="key"><span class="combo"><kbd>Esc</kbd></span><span><b>Exit</b><small>Page goes back to normal</small></span></div>
+      </div>
+      <p class="note">Shortcut already used by another extension? Change it at <code>chrome://extensions/shortcuts</code>, or use the link in the Typinground popup.</p>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="wrap">
+      <div class="label"><span class="n">05</span>Install</div>
+      <h2>Up and running in a minute.</h2>
+      <p class="sub">Add Typinground to your browser, then press the shortcut on any page. Free, with no account to create.</p>
+      <div class="install">
+        <div class="panel">
+          <ol>
+            <li>Add Typinground from the <b>Chrome Web Store</b> or <b>Firefox Add-ons</b>.</li>
+            <li>Pin it to your toolbar to see your stats and settings.</li>
+            <li>Open any article and press <b>Alt+Shift+T</b>. Tabs that were already open need a refresh.</li>
+          </ol>
+        </div>
+        <div class="stores">
+          <a class="store" href="#install" data-umami-event="get-extension" data-umami-event-location="chrome-store" aria-label="Typinground for Chrome, coming soon to the Chrome Web Store">
+            <img src="img/chrome.svg" alt="" width="40" height="40">
+            <span><small>Coming soon to the</small><b>Chrome Web Store</b></span>
+            <em>Soon</em>
+          </a>
+          <a class="store" href="#install" data-umami-event="get-extension" data-umami-event-location="firefox-addons" aria-label="Typinground for Firefox, coming soon to Firefox Add-ons">
+            <img src="img/firefox.svg" alt="" width="40" height="40">
+            <span><small>Coming soon to</small><b>Firefox Add-ons</b></span>
+            <em>Soon</em>
+          </a>
+          <p class="store-note">Works in Chrome, Edge, Brave and Firefox.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="label"><span class="n">06</span>FAQ</div>
+      <h2>Questions, answered.</h2>
+      <div class="faq">
+        <details open><summary>What is Typinground?</summary><p>Typinground is a free browser extension for Chrome and Firefox that turns any webpage into a typing test. Press Alt+Shift+T on an article and its text becomes the test: you type over the page itself and get your words per minute (WPM), accuracy and a speed chart when you finish.</p></details>
+        <details><summary>How do I take a typing test on any webpage?</summary><p>Install Typinground, open any article, and press Alt+Shift+T. The rest of the page dims and a caret appears at the first paragraph on your screen. Type the text, then read your WPM and accuracy on the results card. Press Tab for a new test or Esc to exit.</p></details>
+        <details><summary>Is Typinground free?</summary><p>Yes. Typinground is free, with no account, no subscription and no ads.</p></details>
+        <details><summary>Which browsers does Typinground support?</summary><p>Chrome and other Chromium browsers such as Edge and Brave, plus Firefox.</p></details>
+        <details><summary>Does it work on every website?</summary><p>On almost any page with readable text. Browsers don't allow extensions on internal pages like chrome:// or the extension store, or inside the built-in PDF viewer. On a page without much text, you get a common-words test instead.</p></details>
+        <details><summary>Why are my scores lower than on typing sites?</summary><p>Real writing is harder: capitals, punctuation, numbers and longer words. Turn on simple mode (lowercase, no punctuation) when you want numbers you can compare.</p></details>
+        <details><summary>Will it break the page I'm on?</summary><p>No. Colors are drawn with the CSS Highlight API and the controls live in their own shadow root, so the page's code and styles are never changed. Press Esc and everything is gone.</p></details>
+        <details><summary>It picked the wrong part of the page. What now?</summary><p>Press Alt+Shift+P, hover over the part you want, press ↑ to widen the selection, and click. Typinground remembers it for that site, and you can clear saved sections from the popup.</p></details>
+        <details><summary>Is any of my data sent anywhere?</summary><p>No. There's no account and no server. Results, settings and saved sections are stored locally by your browser.</p></details>
+        <details><summary>The shortcut doesn't do anything.</summary><p>Your browser skips a default shortcut when another extension already uses it. Open the Typinground popup and click "change shortcuts", or go to chrome://extensions/shortcuts. Tabs that were open before you installed need a refresh.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="closing">
+      <h2>Your next article is a warm-up.</h2>
+      <p>Turn the reading you already do into daily typing practice.</p>
+      <div class="cta" style="margin-top:0"><a class="btn btn-dark" href="#install" data-umami-event="get-extension" data-umami-event-location="closing">Get Typinground · free</a><a class="btn btn-line" href="#demo" data-umami-event="try-demo" data-umami-event-location="closing">Try the demo</a></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Typinground home"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect x="4" y="9" width="56" height="51" rx="14" fill="#00255a"/><rect x="4" y="4" width="56" height="49" rx="14" fill="#004296"/><g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 15c5.5 0 9 1.6 9 5.5 0-3.9 3.5-5.5 9-5.5"/><path d="M32 20.5v20"/><path d="M23 46c5.5 0 9-1.6 9-5.5 0 3.9 3.5 5.5 9 5.5"/></g></svg>Typinground</a>
+    <span>For people who'd rather type than wait for a page to load. This site uses cookie-free analytics.</span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const PARAGRAPHS = [
+    "Alan Turing was an English mathematician and logician, often called the father of theoretical computer science. He described the Turing machine, a simple model of a general-purpose computer.",
+    "During the Second World War he worked at Bletchley Park, where he helped break German naval codes. After the war he designed the Automatic Computing Engine, one of the first stored-program computers.",
+  ];
+  const LENGTHS = { time: [15, 30, 60], words: [10, 25, 50] };
+
+  const page = document.getElementById('page');
+  const win = document.getElementById('window');
+  const article = document.getElementById('article');
+  const caret = document.getElementById('caret');
+  const spot = document.getElementById('spot');
+  const clock = document.getElementById('clock');
+  const start = document.getElementById('start');
+  const startText = document.getElementById('start-text');
+  const result = document.getElementById('result');
+  const lengthsEl = document.getElementById('lengths');
+
+  let mode = 'time', limit = 15, shift = 0;
+  let words, wordEls, typed, wi, startedAt, finished, keystrokes, correctKeys, samples, timer, live = false;
+
+  if (matchMedia('(pointer: coarse)').matches) startText.textContent = 'Grab a keyboard to try the demo';
+
+  function build() {
+    article.textContent = '';
+    words = []; wordEls = [];
+    let budget = mode === 'words' ? limit : Infinity;
+    for (const text of PARAGRAPHS) {
+      if (budget <= 0) break;
+      const p = document.createElement('p');
+      for (const w of text.split(' ')) {
+        if (budget-- <= 0) break;
+        if (p.childNodes.length) p.append(' ');
+        const span = document.createElement('span');
+        span.className = 'w';
+        for (const ch of w) {
+          const c = document.createElement('span');
+          c.className = 'c';
+          c.textContent = ch;
+          span.append(c);
+        }
+        p.append(span);
+        words.push(w); wordEls.push(span);
+      }
+      article.append(p);
+    }
+  }
+
+  function reset() {
+    clearInterval(timer);
+    shift = 0;
+    article.style.transform = '';
+    build();
+    typed = words.map(() => '');
+    wi = 0; startedAt = null; finished = false; keystrokes = 0; correctKeys = 0; samples = [];
+    result.classList.remove('show');
+    caret.classList.remove('typing');
+    renderHud();
+    paint();
+  }
+
+  function renderHud() {
+    lengthsEl.textContent = '';
+    for (const n of LENGTHS[mode]) {
+      const b = document.createElement('button');
+      b.textContent = n;
+      b.className = n === limit ? 'on' : '';
+      b.tabIndex = -1;
+      b.onclick = (e) => { e.stopPropagation(); limit = n; reset(); activate(); };
+      lengthsEl.append(b);
+    }
+    document.querySelectorAll('[data-mode]').forEach((b) => (b.className = b.dataset.mode === mode ? 'on' : ''));
+    updateClock();
+  }
+
+  document.querySelectorAll('[data-mode]').forEach((b) => {
+    b.tabIndex = -1;
+    b.onclick = (e) => { e.stopPropagation(); mode = b.dataset.mode; limit = LENGTHS[mode][0]; reset(); activate(); };
+  });
+
+  function updateClock() {
+    if (mode === 'time') {
+      const elapsed = startedAt ? (Date.now() - startedAt) / 1000 : 0;
+      clock.textContent = Math.max(0, Math.ceil(limit - elapsed));
+    } else clock.textContent = `${wi}/${words.length}`;
+  }
+
+  function paint() {
+    wordEls.forEach((el, i) => {
+      const word = words[i], t = typed[i];
+      el.querySelectorAll('.extra').forEach((x) => x.remove());
+      [...el.children].forEach((c, j) => {
+        if (j < t.length) c.className = t[j] === word[j] ? 'c ok' : 'c bad';
+        else c.className = i < wi || (finished && i === wi) ? 'c miss' : 'c';
+      });
+      if (t.length > word.length) {
+        for (const ch of t.slice(word.length)) {
+          const x = document.createElement('span');
+          x.className = 'c extra';
+          x.textContent = ch;
+          el.append(x);
+        }
+      }
+    });
+    placeCaret();
+  }
+
+  function placeCaret() {
+    const pr = page.getBoundingClientRect();
+    const ar = article.getBoundingClientRect();
+    Object.assign(spot.style, { left: ar.left - pr.left - 12 + 'px', top: ar.top - pr.top - 10 + 'px', width: ar.width + 24 + 'px', height: ar.height + 20 + 'px' });
+    const el = wordEls[wi];
+    if (!el || finished) { caret.style.opacity = 0; return; }
+    caret.style.opacity = 1;
+    const chars = el.children;
+    const n = typed[wi].length;
+    const target = n < chars.length ? chars[n] : chars[chars.length - 1];
+    const r = target.getBoundingClientRect();
+    const left = n < chars.length ? r.left : r.right;
+    // Keep the active line in view inside the mock page.
+    const lineTop = r.top - pr.top;
+    if (lineTop > page.clientHeight * 0.72) {
+      shift -= lineTop - page.clientHeight * 0.42;
+      article.style.transform = `translateY(${shift}px)`;
+      return placeCaret();
+    }
+    Object.assign(caret.style, { left: left - pr.left - 1 + 'px', top: r.top - pr.top + 3 + 'px', height: r.height - 6 + 'px' });
+  }
+
+  function correctChars() {
+    let n = 0;
+    for (let i = 0; i < wi; i++) if (typed[i] === words[i]) n += words[i].length + 1;
+    const w = words[wi] || '', t = typed[wi] || '';
+    if (t.length <= w.length && w.startsWith(t)) n += t.length;
+    return n;
+  }
+
+  function tick() {
+    if (!startedAt || finished) return;
+    const elapsed = Date.now() - startedAt;
+    while ((samples.length + 1) * 1000 <= elapsed) samples.push(Math.round(correctChars() / 5 / ((samples.length + 1) / 60)));
+    if (mode === 'time' && elapsed >= limit * 1000) return finish();
+    updateClock();
+  }
+
+  function finish() {
+    finished = true;
+    clearInterval(timer);
+    paint();
+    const seconds = Math.min((Date.now() - startedAt) / 1000, mode === 'time' ? limit : Infinity);
+    const minutes = seconds / 60;
+    let raw = 0, ok = 0, bad = 0, extra = 0, missed = 0;
+    for (let i = 0; i <= wi && i < words.length; i++) {
+      const w = words[i], t = typed[i];
+      raw += t.length + (i < wi ? 1 : 0);
+      for (let j = 0; j < w.length; j++) if (j < t.length) t[j] === w[j] ? ok++ : bad++; else if (i < wi || finished) missed++;
+      extra += Math.max(0, t.length - w.length);
+    }
+    document.getElementById('r-wpm').textContent = Math.round(correctChars() / 5 / minutes) || 0;
+    document.getElementById('r-acc').textContent = (keystrokes ? Math.round((correctKeys / keystrokes) * 100) : 0) + '%';
+    document.getElementById('r-raw').textContent = Math.round(raw / 5 / minutes) || 0;
+    document.getElementById('r-meta').innerHTML = `test <b>${mode} ${limit}</b> · time <b>${Math.round(seconds)}s</b> · chars <b>${ok}/${bad}/${extra}/${missed}</b>`;
+    const pts = samples.length > 1 ? samples : [0, ...samples, 0].slice(0, 2);
+    const max = Math.max(...pts, 1);
+    document.getElementById('r-line').setAttribute('points', pts.map((v, i) => `${(i / (pts.length - 1)) * 400},${50 - (v / max) * 44}`).join(' '));
+    updateClock();
+    result.classList.add('show');
+    track('demo-finish', { mode: `${mode} ${limit}`, wpm: Math.round(correctChars() / 5 / minutes) || 0 });
+  }
+
+  function input(ch) {
+    if (finished) return;
+    if (!startedAt) {
+      startedAt = Date.now();
+      timer = setInterval(tick, 100);
+      caret.classList.add('typing');
+      track('demo-start', { mode: `${mode} ${limit}` });
+    }
+    const w = words[wi];
+    if (ch === ' ') {
+      if (typed[wi] === '') return;
+      keystrokes++; if (typed[wi] === w) correctKeys++;
+      if (wi === words.length - 1) return finish();
+      wi++;
+    } else {
+      keystrokes++;
+      if (w[typed[wi].length] === ch) correctKeys++;
+      if (typed[wi].length < w.length + 10) typed[wi] += ch;
+      if (wi === words.length - 1 && typed[wi] === w) return finish();
+    }
+    paint(); updateClock();
+  }
+
+  function backspace(whole) {
+    if (finished) return;
+    if (typed[wi] === '') {
+      if (wi === 0 || typed[wi - 1] === words[wi - 1]) return;
+      wi--;
+      if (!whole) { paint(); return; }
+    }
+    typed[wi] = whole ? '' : typed[wi].slice(0, -1);
+    paint(); updateClock();
+  }
+
+  function activate() {
+    live = true;
+    win.classList.add('live');
+    start.classList.add('hide');
+    page.focus({ preventScroll: true });
+  }
+
+  function deactivate() {
+    live = false;
+    win.classList.remove('live');
+    start.classList.remove('hide');
+  }
+
+  page.addEventListener('mousedown', (e) => { if (!e.target.closest('.hud, .rcard')) { e.preventDefault(); activate(); } });
+  page.addEventListener('blur', () => { if (!startedAt || finished) deactivate(); });
+  document.getElementById('try').addEventListener('click', () => setTimeout(activate, 350));
+  document.getElementById('again').onclick = () => { reset(); activate(); };
+  document.getElementById('install-link').onclick = () => document.getElementById('install').scrollIntoView();
+
+  page.addEventListener('keydown', (e) => {
+    if (!live || e.metaKey || (e.ctrlKey && e.key !== 'Backspace') || e.altKey) return;
+    if (e.key === 'Tab') { e.preventDefault(); reset(); return; }
+    if (e.key === 'Escape') { reset(); deactivate(); page.blur(); return; }
+    if (e.key === 'Backspace') { e.preventDefault(); backspace(e.ctrlKey); return; }
+    if (e.key.length === 1) { e.preventDefault(); input(e.key); }
+  });
+
+  addEventListener('resize', placeCaret);
+
+  // Which sections people actually reach, once per visit.
+  const seen = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { track('view-section', { section: e.target.id }); seen.unobserve(e.target); }
+  }, { threshold: 0.3 });
+  ['features', 'shortcuts', 'install', 'faq'].forEach((id) => seen.observe(document.getElementById(id)));
+  reset();
+  (document.fonts ? document.fonts.ready : Promise.resolve()).then(placeCaret);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+# Typinground
+
+> Typinground is a free browser extension for Chrome and Firefox that turns any webpage into a typing test. Press Alt+Shift+T on an article, type over the page itself, and get your words per minute (WPM), accuracy and a speed chart.
+
+Typinground is for people who practice touch typing and want to test their speed without opening a separate typing website. It uses the text of the page you're already reading (articles, blogs, documentation, newsletters) instead of a list of random words, so practice includes capitals, punctuation and numbers.
+
+## Key facts
+
+- Price: free. No account, no subscription, no ads.
+- Browsers: Chrome and Chromium browsers (Edge, Brave), and Firefox.
+- Start a test: press Alt+Shift+T on any webpage. Press it again, or Esc, to exit.
+- Pick which part of the page to type: Alt+Shift+P, hover, use the up/down arrows to widen or narrow, then click. The choice is remembered per site.
+- Test modes: time (15, 30, 60 or 120 seconds) or words (10, 25, 50 or 100 words).
+- Results: WPM, accuracy, raw WPM, character counts and a per-second speed chart. Personal bests and history appear in the toolbar popup.
+- Simple mode: lowercase with no punctuation, for scores comparable with word-list typing sites.
+- Text handling: curly quotes, dashes and accented letters become plain keyboard characters; footnote markers and untypeable words are skipped.
+- Pages without much text get a common-words test instead.
+- Privacy: results and settings are stored locally in the browser. Nothing is sent to a server.
+- The page is never modified: typing progress is drawn with the CSS Custom Highlight API, and pressing Esc leaves the page exactly as it was.
+- Limits: browsers don't allow extensions on internal pages (such as chrome://), extension stores, or the built-in PDF viewer.
+
+## Keyboard shortcuts
+
+- Alt+Shift+T: toggle typing mode on the current page
+- Alt+Shift+P: pick a section to type
+- Tab: new test from the first paragraph on screen
+- Enter: repeat the same text (on the results card)
+- Ctrl+Backspace: delete the current word
+- Space: skip to the next word
+- Esc: exit
+
+## Links
+
+- [Home page](https://typinground.pages.dev/): overview, live demo, features and FAQ
+- [Install](https://typinground.pages.dev/#install): how to add Typinground to your browser
+- [FAQ](https://typinground.pages.dev/#faq): common questions

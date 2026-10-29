@@ -1,0 +1,32 @@
+{
+  "name": "typinground",
+  "description": "Turn any webpage into a typing test.",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "author": "nishu-murmu",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@wxt-dev/module-react": "^1.1.5",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5",
+    "web-ext": "^10.5.0",
+    "wxt": "^0.21.3"
+  }
+}
